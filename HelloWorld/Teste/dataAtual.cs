@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//Crie um programa que solicita ao usuário a exibição da data atual em diferentes formatos:
 
-namespace Desafio-c#.Teste
+namespace Teste
 {
     internal class dataAtual
 {

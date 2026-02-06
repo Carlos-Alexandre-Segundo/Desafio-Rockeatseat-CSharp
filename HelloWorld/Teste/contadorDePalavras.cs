@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//Crie um programa em que o usuário digita uma ou mais palavras e é exibido a quantidade de caracteres que a palavra inserida tem.
 
-namespace Desafio-c#.Teste
+namespace Teste
 {
     internal class contadorDePalavras
-{
-}
+    {
+
+    }
 }

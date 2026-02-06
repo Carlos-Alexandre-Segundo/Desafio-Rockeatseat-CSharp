@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Teste;
 
-namespace Desafio-c#
+namespace Desafio
 {
-    internal class Class1
-{
-}
+    public class Inicial
+    {
+        boasVindas boasVindas = new boasVindas();
+    }
 }

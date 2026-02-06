@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//Crie um programa em que o usuário precisa digitar a placa de um veículo e o programa verifica se a placa é válida,
+//seguindo o padrão brasileiro válido até 2018:
 
-namespace Desafio-c#.Teste
+namespace Teste
 {
     internal class verificadorDePlaca
 {
