@@ -13,29 +13,29 @@ namespace Teste;
             int quantidadeDeCaracteres = input.Length;
             Console.WriteLine($"A quantidade de caracteres digitados é: {quantidadeDeCaracteres}");
 
-            Console.WriteLine("\n Você quer continuar ?");
+            Console.WriteLine("\nVocê quer continuar ?");
             string resposta = Console.ReadLine().ToLower().Trim();
 
-        if (resposta == "s" || resposta == "sim")
-        {
-            Console.Clear();
-            contadorDePalavras.qtdeDePalavras(args);
-        }
-        if (resposta == "n" || resposta == "nao")
-        {
-            
-            Console.WriteLine("Saindo do contador de palavras. Até a próxima!");
-
-            Console.Clear();
-
-            tabelaDeFuncoes.mostrarTabelaDeFuncoes(args);
-        }
-         else
+            if (resposta == "s" || resposta == "sim")
             {
-                Console.WriteLine("Resposta inválida. Saindo da calculadora. Até a próxima!");
+                Console.Clear();           
+                contadorDePalavras.qtdeDePalavras(args);
             }
+            if (resposta == "n" || resposta == "nao")
+            {
+            
+                Console.WriteLine("Saindo do contador de palavras. Até a próxima!");
 
+                Console.Clear();
 
+                tabelaDeFuncoes.mostrarTabelaDeFuncoes(args);
+            }
+             else
+             {
+                Console.Clear();
+                Console.WriteLine("Resposta inválida. Digite (s/n)");
+                contadorDePalavras.qtdeDePalavras(args);
+             }
         }
-}
+    }
 

@@ -30,26 +30,31 @@ namespace Teste
                 {
                     case "1":
                         Console.WriteLine("Função 1 selecionada.");
+                        Console.Clear();
                         calculadoraMatematica.calculadora(args);
                         break;
 
                     case "2":
                         Console.WriteLine("Função 2 selecionada.");
+                        Console.Clear();
                         dataAtual.calendario(args);
                         break;
 
                     case "3":
                         Console.WriteLine("Função 3 selecionada.");
+                        Console.Clear();
                         contadorDePalavras.qtdeDePalavras(args);
                         break;
 
                     case "4":
                         Console.WriteLine("Função 4 selecionada.");
+                        Console.Clear();
                         verificadorDePlaca.verificarPlaca(args);
                         break;
 
                     case "0":
                         Console.WriteLine("Saída selecionada.");
+                        Console.Clear();
                         saidaDoPrograma.sair(args);
                         continuar = false;
                         break;
